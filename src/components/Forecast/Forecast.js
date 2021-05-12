@@ -30,7 +30,7 @@ const Forecast = () => {
                 "method": "GET",
                 "headers": {
                     "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-                    "x-rapidapi-key": "5f4cb85755msh09746cdfe219bd7p1390c1jsn843053e37595"
+                    "x-rapidapi-key": "hidden api key - insert your own"
                 }
             })
             .then(response => response.json())
